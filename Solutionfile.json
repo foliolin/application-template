@@ -1,0 +1,8 @@
+{
+  "default_page": "",
+  "file_dir": "",
+  "custom_api": "sample_api.lua",
+  "custom_api_hook": "",
+  "modules": {},
+  "event_handler": {}
+}
