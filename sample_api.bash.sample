@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 sample_api() {
-  curl -XPOST \
-    -H'content-type: application/json' \
-    "https://$HOST/Email/send" \
-    -d@<(cat <<JSON
+    curl -XPOST \
+        -H'content-type: application/json' \
+        "https://$HOST/Email/send" \
+        -d@<(cat <<JSON
 {
   "to": ["$TO"],
   "subject": "Hello world!",
