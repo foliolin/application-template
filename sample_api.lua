@@ -1,2 +1,2 @@
 --#ENDPOINT POST /{service}/{method}
-response.message = _G[request.parameters.service][request.parameters.method](request.body)
+response.message = murano.service_call(request.parameters.service, request.parameters.method, request.body)
